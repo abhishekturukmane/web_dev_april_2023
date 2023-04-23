@@ -1,0 +1,24 @@
+/* class selector */
+.para{
+    color:blueviolet;
+    
+}
+/* id selector */
+#sub-heading{
+    background-color: brown;
+}
+/* tag selector */
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* universal selector */
+*{
+    background-color: chartreuse;
+}
+/* group selector */
+h1,p{
+    text-align: center;
+}

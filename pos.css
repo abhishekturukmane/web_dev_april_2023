@@ -1,0 +1,59 @@
+.h1{
+    background-color: pink;
+    color: white;
+}
+.para1{
+    background-color: orangered;
+    position: relative;
+    height: 50px;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 20px;
+    position: static;
+}
+.para2{
+    background-color: blue;
+    height: 50px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    position: relative;
+    top:15px;
+    left: 20px;
+    
+
+}
+.paradiv
+{
+    background-color: brown;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    position: relative;
+   
+}
+.para3
+{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+
+}
+.lion{
+    position: sticky;
+    top:0;
+}
+.swiggy{
+    position: fixed;
+    height: 30px;
+    top: 10px;
+
+    
+}
+
+.loreum{
+    background-color: cornflowerblue;
+    color: black;
+}

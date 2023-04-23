@@ -1,0 +1,23 @@
+a:visited{
+    color: red;
+}
+a:hover{
+    font-family: cursive;
+}
+a:active{
+    background-color: blueviolet;
+}
+.container p:first-child{
+    color: chartreuse;
+}
+.container p:last-child{
+    background-color: chartreuse;
+}
+.container p:nth-child(2n){
+    font-family: cursive;
+}
+input:focus{
+
+    background-color: red;
+    width: 400px;
+}
