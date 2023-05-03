@@ -1,0 +1,26 @@
+.container{
+    background-color: brown;
+    width: 400px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    grid-template-rows:1fr 1fr ;
+    align-items: center;
+    justify-items: center;
+    
+    
+    
+}
+.parent{
+    background-color: aqua;
+    width: 100%;
+    height: 700px;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.container div{
+    color: black;
+    margin: 5px;
+    background-color: blanchedalmond;
+}

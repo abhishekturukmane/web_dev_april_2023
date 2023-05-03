@@ -1,0 +1,26 @@
+.container{
+    
+    height: 400px;
+    background-color: lightblue;
+    display: flex;
+    /* flex-direction: row;*/
+    flex-wrap: wrap;
+    /* flex-flow: row wrap; */
+    /* justify-content is used for x axis */
+    /* justify-content: space-evenly; */
+    /* align-items: flex-end; */
+    /* align-content: space-evenly; */
+    column-gap: 10px;
+} 
+
+.container .item{
+    
+    background-color: #8a2be2;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 40px;
+    margin: 2px;
+    border: 2px solid #8a2be2;
+
+    
+}
